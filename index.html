@@ -1,152 +1,239 @@
 <!DOCTYPE html>
+<!-- Created By MumkoNephs -->
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>AMD landing page</title>
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"/>
+    <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/typed.js/2.0.11/typed.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/waypoints/4.0.1/jquery.waypoints.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css"/>
+
 </head>
 <body>
-
-    <div class="navbar">
-                             <div class="logo">
-                                 <img src="logoo.png">
-                                 <div class="mtext" style="margin-top: 15px;">LaserSurveyors</div>
-                             </div>
-
-                             
-
-                            <div class="menu">
-                                <ul class="menus">
-                                    <li>About</li>
-                                    <li>Services</li>
-                                    <li>Contact</li>
-                                </ul>
-                            </div>
-
-                            <div class="accounts">
-                                <div class="signin">Sign In</div>
-                                <div class="register">Register</div>
-                            </div>
-
+    <div class="scroll-up-btn">
+        <i class="fas fa-angle-up"></i>
     </div>
-
-
-    <section class="home">
-        
-        <div class="contents">
-            <div class="text1">Welcome!</div>
-            <div class="text2">Laser Surveyors</div>
-            <div class="text3">Feel right here at home. We make what hardest simple. Karibu Nyumbani</div>
+    <nav class="navbar">
+        <div class="max-width">
+            <div class="logo"><a href="#">Africamedia<span>HIVE.</span></a></div>
+            <ul class="menu">
+                <li><a href="#home" class="menu-btn">Home</a></li>
+                <li><a href="#about" class="menu-btn">About</a></li>
+                <li><a href="#services" class="menu-btn">Services</a></li>
+                <li><a href="#skills" class="menu-btn">Skills</a></li>
+                <li><a href="#teams" class="menu-btn">Teams</a></li>
+                <li><a href="#contact" class="menu-btn">Contact</a></li>
+            </ul>
+            <div class="menu-btn">
+                <i class="fas fa-bars"></i>
+            </div>
         </div>
-        
-    </section>
+    </nav>
 
-    <section class="services">
-        <div class="title">services</div>
-
-        <div class="content-wrapper">
-            <div class="component">
-                <div class="image"><img src="total_station.png" alt=""></div>
-                <div class="text">Land sub-division, location of cordinates</div>
-
-            </div>
-
-            <div class="component">
-                <div class="image"><img src="images.jpg" alt=""></div>
-                <div class="text">Title processing.</div>
-
-            </div>
-            <div class="component">
-                <div class="image"><img src="rf-lg.jpg" alt=""></div>
-                <div class="text">Land locating, Demacation of lands</div>
-
-            </div>
-            <div class="component">
-                <div class="image"><img src="mutation.jpg" alt=""></div>
-                <div class="text">Mutation process</div>
-
-            </div>
-            <div class="component">
-                <div class="image"><img src="level.jpg" alt=""></div>
-                <div class="text">Land Levelling calcutaion</div>
-
+    <!-- home section start -->
+    <section class="home" id="home">
+        <div class="max-width">
+            <div class="home-content">
+                <div class="text-1">Welcome to the home of</div>
+                <div class="text-2">AFRICA MEDIA HIVE</div>
+                <div class="text-3">And we are <span class="typing"></span></div>
+                <div><a href="#contact">Hire us</a></div>
+                <a href="https://www.facebook.com/africamediahive/"> <ion-icon name="logo-facebook"></ion-icon> facebook</a>
+                <a href="https://www.instagram.com/africa_mediahive/"> <ion-icon name="logo-instagram"></ion-icon> Instagram</a>
+          <div>  <a href="https://wa.me/254724760833"><ion-icon name="logo-whatsapp"></ion-icon>whatsUp</a>
+                <a href="tel:254724760833"><ion-icon name="call-outline"></ion-icon>Call now</a>
+           </div>
             </div>
         </div>
     </section>
 
-    <section class="contact">
-        <div class="title">contact</div>
-        <div class="wrapper">
-            <div class="content-wrap left">
-                <div class="text">please reach us via</div>
-                <div class="infos">
-                        <div class="icon">icon</div>
-                        <div class="contacts">
-                            <div class="text1">Phone Number</div>
-                            <div class="text2">0700429146</div>
-                        </div>
-    
+    <!-- about section start -->
+    <section class="about" id="about">
+        <div class="max-width">
+            <h2 class="title">About us</h2>
+            <div class="about-content">
+                <div class="column left">
+                    <img src="images/images/picture2.jpg" alt="">
                 </div>
-    
-                <div class="infos">
-                        <div class="icon">icon</div>
-                        <div class="contacts">
-                            <div class="text1">location</div>
-                            <div class="text2">thika</div>
-                        </div>
-    
-                </div>
-    
-                <div class="infos">
-                        <div class="icon">icon</div>
-                        <div class="contacts">
-                            <div class="text1">Email</div>
-                            <div class="text2">lucykongoine@gmail.com</div>
-                        </div>
-    
-                </div>
+                <div class="column right">
+                    <div class="text"> Africa Media hive, a home of  <span class="typing-2"></span></div>
+                    <p> At Africa Media Hive Limited we offer a state of the art of online live streaming services to all social media platforms and websites compatible with all mobile devices and smart tvs world wide, corporate events, church services, product launches, surgeres, weddings, temple events, online classes, sports etc. Broadcast your events live without buffling at Africa Media Hive Limited. </p>
+                    <iframe width="450" height="200" src="https://www.youtube.com/embed/xA_f5Qy4ND8" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>   
+                </div> 
             </div>
-                <div class="content-wrap right">
-                    <div class="text">Message us</div>
-                    <div class="form">
-                        <form action="">
-                            <div class="part">
-                                <label for="name">Full Name:</label>
-                                <input type="text" name="name" placeholder="Full name" required>
-                                
-                            </div>
-                            <div class="part">
-                                <label for="name">Email:</label>
-                                <input type="emsil" name="name" placeholder="Full name" required>
-                                
-                            </div>
-                            <div class="part">
-                                <label for="name">Subject:</label>
-                                <input type="text" name="name" placeholder="subject">
-                                
-                            </div>
-                            <div class="part">
+        </div>
+    </section>
 
-                                <div>message</div>
-                                <textarea name="message" id="message" cols="30" rows="10" placeholder="write your message"></textarea>
-                                
-                            </div>
-                            <button>subtmit</button>
-                        </form>
+    <!-- services section start -->
+    <section class="services" id="services">
+        <div class="max-width">
+            <h2 class="title">Our services</h2>
+            <div class="serv-content">
+                <div class="card card1"> 
+                    <div class="box">
+                        
+                        <div class="text">Online live streaming</div>
+                        <p>We live stream to all social media platforms and websites compatible with all mobile devices and smart tvs.  </p>
                     </div>
                 </div>
-          
+                <div class="card card2">
+                    <div class="box">
+                        
+                        <div class="text">Photography</div>
+                        <P>We take photos for all corporate events, church services, product launches, surgeres, weddings, temple events, online classes, sports etc. </P>
+                    </div>
+                </div>
+                <div class="card card3">
+                    <div class="box">
+                        
+                        <div class="text">Videography</div>
+                        <P>We also make high quality videos for all events, edit them with the most current technology for all advertisement, events, movies etc.</P>
+                    </div>
+                </div>
+               </div>
+            </div>
         </div>
     </section>
 
-
-    <section class="footer">
-        <div class="content-wrappers">
-            <p>created by MumkoNephs @ copyright all rights reserved</p>
+    <!-- skills section start -->
+    <section class="skills" id="skills">
+        <div class="max-width">
+            <h2 class="title">Skills</h2>
+            <div class="skills-content">
+                <div class="column left">
+                    <div class="text">Our creative skills & experiences.</div>
+                    <p>We have good experiences in making high standard shortfilms, movies, record events in a way that no one else have. We have worked with clients and the feedback is always a five star. We breath life to the fading written strories through cameras and the result is always smiles. The language we speak, we listen, we talk, we understand is only media</p>
+                    <a href="#">Read more</a>
+                </div>
+                <div class="column right">
+                    <div class="image-holder">
+                        <img src="images/images/picture1.jpg" style="width: 95%">
+                    </div>
+                </div>
+            </div>
         </div>
     </section>
 
+    <!-- teams section start -->
+    <section class="teams" id="teams">
+        <div class="max-width">
+            <h2 class="title">Venture with us</h2>
+            <div class="carousel owl-carousel">
+                <div class="card">
+                    <div class="box">
+                        <img src="images/images/picture8.jpg" alt="">
+                        <div class="text">At live event</div>
+                        <p> The crew at a live event recording best videos and speeches</p>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="box">
+                        <img src="images/images/picture9.jpg" alt="">
+                        <div class="text">At a movie seen</div>
+                        <p> We are the best at ground level movie and drama scenes</p>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="box">
+                        <img src="images/images/picture4.jpg" alt="">
+                        <div class="text">Great nature shots</div>
+                        <p>We make use of our nature in aspects that no other can</p>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="box">
+                        <img src="images/images/picture1.jpg" alt="">
+                        <div class="text">We are serious</div>
+                        <p>We only got the most talented personelles to give the best results</p>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="box">
+                        <img src="images/images/picture10.jpg" alt="">
+                        <div class="text">No room for dout</div>
+                        <p>Try us today and feel the vibe. We leave no room for doubt</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- contact section start -->
+    <section class="contact" id="contact">
+        <div class="max-width">
+            <h2 class="title">Contact us</h2>
+            <div class="contact-content">
+                <div class="column left">
+                    <div class="text">Get in Touch</div>
+                    <p>If u want to hire a videographer, a photographer, editor, director, please reach Africa via our messaging form or contact us directly via email or phone number</p>
+                    <div class="icons">
+                        <div class="row">
+                            <i class="fas fa-user"></i>
+                            <div class="info">
+                                <div class="head">Name</div>
+                                <div class="sub-title">Steven Kikison</div>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <i class="fas fa-map-marker-alt"></i>
+                            <div class="info">
+                                <div class="head">Phone Number</div>
+                                <div class="sub-title"> +254 724760833  </div>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <i class="fas fa-envelope"></i>
+                            <div class="info">
+                                <div class="head">Email</div>
+                                <div class="sub-title"> AfricaMediaHive.com@gmail.com</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="column right">
+                    <div class="text">Message me</div>
+                    <form action="https://formspree.io/f/xknyjrvv" method="POST" id="my-form">
+                        <div class="fields">
+                            <div class="field name">
+                                <input type="text" placeholder="Name" required >
+                            </div>
+                            <div class="field email">
+                                <input type="email" placeholder="Email" required name="_replyto">
+                            </div>
+                        </div>
+                        <div class="field">
+                            <input type="text" placeholder="Subject" required>
+                        </div>
+                        <div class="field textarea">
+                            <textarea cols="30" rows="10" placeholder="Message.." required name="message"></textarea>
+                        </div>
+                        <div class="button-area">
+                            <button type="submit">Send message</button>
+                        </div>
+                    </form>
+                    <div id="status"></div>
+                    
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- footer section start -->
+    <footer>
+        <div class="socialmedia"> visit: <a href="https://www.facebook.com/africamediahive/" target="blank" style="font-size: 20px;"><ion-icon name="logo-facebook"></ion-icon></a> <a href="https://www.facebook.com/africamediahive/" target="blank" style="color: white">Facebook</a>  |  <a href="https://www.instagram.com/africa_mediahive/" target="blank" style="font-size: 20px;" ><ion-icon name="logo-instagram"></ion-icon></a> <a href="https://www.instagram.com/africa_mediahive/" target="blank" style="color: white;">Instagram</a></div>
+      <div> <span>Created By <a href="https://mumkoNephs@github.io">MumkoNephs</a> | <span class="far fa-copyright"></span> 2022 All rights reserved.</span></div>
+
+        
+    </footer>
+
+    <script src="script.js"></script>
+    <script src="outsource.js"></script>
+    <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
 </body>
 </html>
